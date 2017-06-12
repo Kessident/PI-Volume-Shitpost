@@ -7,7 +7,6 @@ let correct = true;
 input.addEventListener('keydown', function(){
   let keyCode = event.keyCode;
   let value = input.value + String.fromCharCode(keyCode);
-  console.log(value);
 
   if (correct){
     vol++;
